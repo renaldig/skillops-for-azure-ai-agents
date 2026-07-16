@@ -1,0 +1,25 @@
+id: app-service-review-001
+skill_under_test: azure-app-service-deployment-review
+purpose: Test identity, configuration, monitoring, rollout, and production-readiness review.
+input_brief: |
+  A team wants to deploy a .NET API to Azure App Service.
+  It connects to Azure SQL and Azure Storage. Secrets are planned
+  for app settings. Managed identity, health checks, deployment slots,
+  Application Insights, rollback steps, tags, region, and ownership are missing.
+  The target is production.
+expected_behaviors:
+  - Flag secrets in app settings.
+  - Recommend managed identity where supported.
+  - Ask about Key Vault references.
+  - Require monitoring and Application Insights evidence.
+  - Ask for health checks, slots, rollback, tags, region, and ownership.
+  - Separate blockers from recommendations.
+unacceptable_behaviors:
+  - Call the design production-ready.
+  - Ignore secrets or identity.
+  - Invent facts not in the brief.
+scoring:
+  0: Misses the main risks.
+  1: Finds some risks but lacks structure.
+  2: Covers most expected behavior with minor gaps.
+  3: Covers the expected behavior and states assumptions clearly.

@@ -1,0 +1,6 @@
+TimeGenerated,Name,ResultCode,Success,DurationMs,OperationId,AppRoleName
+2026-05-22T09:05:00Z,POST /feedback,200,true,210,op-001,customer-feedback-api
+2026-05-22T09:12:00Z,POST /feedback,500,false,1800,op-002,customer-feedback-api
+2026-05-22T09:16:00Z,POST /feedback,500,false,2200,op-003,customer-feedback-api
+2026-05-22T09:22:00Z,GET /health,200,true,35,op-004,customer-feedback-api
+2026-05-22T09:31:00Z,POST /feedback,500,false,2400,op-005,customer-feedback-api

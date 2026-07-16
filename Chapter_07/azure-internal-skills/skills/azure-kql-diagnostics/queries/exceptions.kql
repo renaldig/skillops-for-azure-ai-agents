@@ -1,0 +1,5 @@
+// Exceptions by type and problem identifier
+AppExceptions
+| where TimeGenerated > ago(1h)
+| summarize Count = count() by Type, ProblemId
+| order by Count desc

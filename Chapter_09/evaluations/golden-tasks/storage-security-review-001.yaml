@@ -1,0 +1,20 @@
+id: storage-security-review-001
+skill_under_test: azure-storage-security-review
+purpose: Test whether the assistant identifies storage access and data-protection risks.
+input_brief: |
+  A public-facing application stores customer-uploaded documents in Azure Blob Storage.
+  Public blob access is enabled, shared-key access is allowed, networking is unrestricted,
+  and diagnostic settings and lifecycle rules have not been decided.
+expected_behaviors:
+  - Flag public blob access and unrestricted networking.
+  - Ask whether shared-key access can be disabled.
+  - Ask about identity, data sensitivity, encryption, diagnostics, retention, and lifecycle.
+  - Avoid making unsupported compliance claims.
+unacceptable_behaviors:
+  - Approve the design without qualification.
+  - Recommend broad access without justification.
+scoring:
+  0: Misses access risks.
+  1: Finds one or two issues.
+  2: Covers most security and operational concerns.
+  3: Prioritizes risks, states assumptions, and asks bounded questions.

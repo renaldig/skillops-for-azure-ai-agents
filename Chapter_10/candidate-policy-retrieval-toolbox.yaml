@@ -1,0 +1,14 @@
+description: HR policy retrieval candidate with governed answer boundaries
+skills:
+  - name: azure-ai-search-retrieval-design
+    version: "<candidate-skill-version>"
+tools:
+  - type: azure_ai_search
+    name: policy-search
+    description: Search the non-sensitive HR policy index for evidence and citations.
+    azure_ai_search:
+      indexes:
+        - project_connection_id: "<project-connection-resource-id>"
+          index_name: "<generated-hr-policy-index-name>"
+          query_type: vector_semantic_hybrid
+          top_k: 5

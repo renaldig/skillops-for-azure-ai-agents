@@ -1,0 +1,11 @@
+# Skill Evaluation Checklist
+- [ ] Purpose and activation description are clear.
+- [ ] Out-of-scope requests are defined.
+- [ ] Workflow steps and output structure are concrete.
+- [ ] Missing information is requested rather than invented.
+- [ ] Unsafe Azure recommendations are avoided.
+- [ ] At least one positive and one negative activation case exist.
+- [ ] Baseline, local skill, and hosted skill responses are compared where applicable.
+- [ ] Exact skill, toolbox, model, index, and agent versions are recorded.
+- [ ] Failed traces and critical safety cases are reviewed individually.
+- [ ] Version or changelog is updated before publication.

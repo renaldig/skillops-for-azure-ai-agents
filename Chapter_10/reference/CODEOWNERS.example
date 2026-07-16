@@ -1,0 +1,18 @@
+# Deployment and infrastructure skills
+/skills/azure-app-service-deployment-review/  @platform-team
+/skills/azure-deployment-validation-review/   @platform-team
+/skills/azure-release-readiness-review/        @platform-team
+
+# Security-owned review skills
+/skills/azure-storage-security-review/         @cloud-security
+/skills/azure-managed-identity-review/         @cloud-security
+/skills/azure-ai-data-boundary-review/         @cloud-security
+
+# Operations and AI platform skills
+/skills/azure-observability-investigation/     @sre-team
+/skills/azure-kql-diagnostics/                 @sre-team
+/skills/azure-incident-triage/                  @sre-team
+/skills/azure-post-incident-review/             @sre-team
+/skills/azure-ai-search-retrieval-design/       @ai-platform-team
+/skills/azure-foundry-workflow-planning/        @ai-platform-team
+/skills/azure-model-deployment-evaluation/      @ai-platform-team
