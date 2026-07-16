@@ -1,0 +1,18 @@
+// Request volume and failure count over time
+AppRequests
+| where TimeGenerated > ago(1h)
+| summarize TotalRequests = count(), FailedRequests = countif(Success == false) by bin(TimeGenerated, 5m), _ResourceId
+| order by TimeGenerated asc
+
+// Slowest request operations in the last hour
+AppRequests
+| where TimeGenerated > ago(1h)
+| summarize AvgDurationMs = avg(DurationMs), P95DurationMs = percentile(DurationMs, 95), Count = count() by Name
+| order by P95DurationMs desc
+
+// Failed requests by result code and operation
+AppRequests
+| where TimeGenerated > ago(1h)
+| where Success == false
+| summarize Count = count() by ResultCode, Name
+| order by Count desc

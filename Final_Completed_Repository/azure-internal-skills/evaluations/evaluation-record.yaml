@@ -1,0 +1,14 @@
+evaluation_id: eval-2026-05-22-001
+golden_task: app-service-review-001
+skill: azure-app-service-deployment-review
+skill_version: 0.3.0
+assistant: GitHub Copilot Chat
+mode: Skill enabled in local workspace
+reviewer: platform-engineering
+score: 2
+result: Improved response, but missed deployment slots.
+notes:
+  - Correctly flagged secrets and managed identity.
+  - Correctly asked about Application Insights.
+  - Did not separate blockers from recommendations clearly.
+  - Add stronger instruction about production readiness sections.

@@ -1,0 +1,8 @@
+---
+name: azure-deployment-review
+description: Use this skill when reviewing Azure deployment artifacts,
+  infrastructure-as-code files, or release plans before deployment. The
+  assistant should identify readiness gaps and review questions across
+  service fit, identity, networking, observability, rollback readiness,
+and cost impact. Keep production approval with a human reviewer.
+---

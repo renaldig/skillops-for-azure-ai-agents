@@ -1,0 +1,23 @@
+---
+name: azure-release-readiness-review
+description: Review an Azure workload before release and identify
+  missing validation, rollout, rollback, monitoring, and ownership
+  evidence.
+---
+
+Use this skill when the user says a deployment is ready, asks for
+release approval, or wants a final review before moving to a test,
+staging, or production environment.
+
+Return the review as:
+
+1. Release decision: Ready, Ready with warnings, or Not ready.
+2. Critical blockers.
+3. Warnings to resolve soon.
+4. Evidence reviewed.
+5. Missing evidence.
+6. Rollout and rollback summary.
+7. Operational handoff notes.
+
+Do not mark a release as Ready if no validation output, rollback
+approach, owner, or monitoring evidence is provided.

@@ -1,0 +1,33 @@
+---
+name: azure-foundry-workflow-planning
+description: Guide an assistant through planning a Microsoft Foundry
+  workflow for model, agent, retrieval, evaluation, and monitoring
+  scenarios on Azure.
+---
+
+Use this skill when the user asks for help planning a Microsoft
+Foundry project, model deployment, agent workflow, retrieval flow,
+or AI application review on Azure.
+
+Start by asking for:
+
+1. Application purpose and target users.
+2. Whether the application is internal or customer-facing.
+3. Expected AI pattern: chat, RAG, agent, classification,
+   extraction, summarization, evaluation, or another pattern.
+4. Data sources and whether they contain sensitive information.
+5. Expected traffic, latency needs, and cost constraints.
+6. Required regions, compliance constraints, and approval process.
+7. How the team will evaluate quality, safety, and reliability.
+
+Planning sequence:
+
+1. Clarify the workflow and user outcome.
+2. Identify the required model, retrieval, tool, or agent capability.
+3. Identify data sources and data boundaries.
+4. Recommend an evaluation approach before production release.
+5. Recommend monitoring signals for production operation.
+6. State assumptions and open questions.
+
+Avoid recommending production release until evaluation, monitoring,
+access control, and data boundary checks have been addressed.

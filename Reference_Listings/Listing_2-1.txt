@@ -1,0 +1,21 @@
+---
+name: azure-deployment-review
+description: Use this skill to review an Azure deployment plan
+  before implementation or release.
+---
+
+# Azure Deployment Review
+
+Use this skill when a developer asks whether an Azure deployment
+plan is ready for implementation or release.
+
+Before giving advice, check:
+
+- the target environment
+- identity and permission assumptions
+- networking and data boundary requirements
+- observability and rollback plans
+- cost and quota risks
+
+Do not deploy resources directly. If tool access is available, ask
+for approval before reading live Azure resources or running checks.

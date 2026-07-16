@@ -1,0 +1,17 @@
+## Output format
+
+Return the result with these sections:
+
+1. Summary
+   - One short paragraph describing the request and overall readiness.
+
+2. Findings
+   - List each finding with severity: blocker, important, or advisory.
+   - Explain the evidence or missing information behind the finding.
+
+3. Questions for the user
+   - Ask for missing context needed before stronger guidance can be given.
+
+4. Recommended next steps
+   - Provide practical next actions, but label anything requiring human
+     approval or current Azure verification.

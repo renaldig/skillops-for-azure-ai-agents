@@ -1,0 +1,21 @@
+---
+name: azure-container-apps-review
+description: Use this skill when the user asks you to review,
+  validate, troubleshoot, or prepare an Azure Container Apps
+  deployment, especially for ingress, secrets, managed identity,
+  scaling, revisions, observability, cost, or production readiness.
+---
+
+# Azure Container Apps Review Skill
+
+Before giving recommendations, identify the target environment,
+deployment method, container registry, ingress requirements,
+identity model, dependent services, scaling expectations, and
+observability requirements.
+
+Return the review as:
+
+1. Critical issues
+2. Recommended improvements
+3. Missing information
+4. Suggested next actions

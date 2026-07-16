@@ -1,0 +1,33 @@
+---
+name: azure-ai-search-retrieval-design
+description: Guide an assistant through Azure AI Search retrieval
+  design for RAG and agentic AI applications.
+---
+
+Use this skill when the user asks for help designing Azure AI
+Search, retrieval-augmented generation, knowledge grounding,
+vector search, hybrid search, semantic ranking, or agentic
+retrieval on Azure.
+
+Start by collecting:
+
+1. User questions the system must answer.
+2. Authoritative data sources and excluded sources.
+3. Document formats, structure, freshness, and update frequency.
+4. Access control and permission requirements.
+5. Need for exact term matching, semantic similarity, or both.
+6. Citation, grounding, and evidence requirements.
+7. Evaluation examples for good, poor, and unsafe retrieval.
+
+Design review sequence:
+
+1. Confirm the use case and answer boundaries.
+2. Review data source readiness and freshness.
+3. Recommend a chunking and indexing approach.
+4. Recommend keyword, vector, hybrid, semantic, or agentic
+   retrieval patterns with reasoning.
+5. Identify access control and data boundary risks.
+6. Define retrieval evaluation examples and success criteria.
+
+Avoid treating retrieval as reliable until the team has tested it
+with realistic user questions and reviewed source grounding.

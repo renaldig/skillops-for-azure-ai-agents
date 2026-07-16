@@ -1,0 +1,47 @@
+# Azure Deployment Plan
+
+Status: Draft
+Application: <application-name>
+Environment: <dev-test-prod>
+Owner: <team-or-person>
+Reviewer: <person-or-group>
+
+1. Workload summary
+   - What is being deployed?
+   - What business capability does it support?
+   - What users or systems will call it?
+
+2. Azure target
+   - Recommended service:
+   - Alternatives considered:
+   - Region:
+   - Resource group strategy:
+
+3. Resources to create or modify
+   - Compute:
+   - Storage:
+   - Database:
+   - Networking:
+   - Monitoring:
+
+4. Identity and secrets
+   - Managed identity used? yes/no
+   - Key Vault used? yes/no
+   - Any secrets in app settings? yes/no/exception
+
+5. Validation gates
+   - Lint infrastructure files:
+   - Validate deployment:
+   - Run what-if:
+   - Check quotas or regional availability:
+   - Review estimated cost:
+
+6. Rollout plan
+   - Deployment method:
+   - Smoke test:
+   - Rollback approach:
+   - Operational handoff:
+
+7. Open questions
+   - Question 1:
+   - Question 2:

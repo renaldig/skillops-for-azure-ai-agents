@@ -1,0 +1,40 @@
+---
+name: azure-deployment-review
+description: Use this skill when reviewing Azure deployment artifacts,
+  infrastructure-as-code files, or release plans before deployment.
+---
+
+# Azure Deployment Review
+
+## Purpose
+Help the user review an Azure deployment before release. Identify
+readiness gaps, missing information, and questions for human review.
+
+## Intake
+Before giving recommendations, identify or ask for:
+- target environment: dev, test, staging, or production
+- target Azure services and deployment method
+- identity model: managed identity, service principal, or other
+- network exposure: private, internal, or public
+- rollback or recovery plan
+
+## Review workflow
+1. Summarize the deployment context in two or three sentences.
+2. Identify the deployment type: new workload, change, migration,
+   hotfix, or proof of concept.
+3. Review service fit and configuration assumptions.
+4. Review identity, secrets, and access boundaries.
+5. Review network exposure and data protection assumptions.
+6. Review observability, alerting, and rollback readiness.
+7. Review cost-impact questions and scaling assumptions.
+
+## Output format
+Return:
+- readiness summary
+- critical blockers
+- review questions
+- suggested next steps
+
+## Boundaries
+Keep production approval and compliance claims with a human reviewer.
+Surface evidence and questions for review.

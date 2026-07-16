@@ -1,0 +1,31 @@
+---
+name: azure-service-selection-review
+description: Help an assistant select an appropriate Azure hosting
+  service for an application or workload before deployment planning.
+---
+
+Use this skill when the user asks where an application should run
+on Azure, asks for deployment options, or shares a workload brief
+without a clear target service.
+
+Before recommending a service, gather or infer these facts:
+
+1. Application type: web app, API, worker, function, static site,
+   container, AI agent, batch job, or legacy service.
+2. Runtime and packaging: framework, container requirement,
+   operating system, and build process.
+3. Scale pattern: steady, bursty, event-driven, scale-to-zero,
+   or manually scaled.
+4. Operational needs: deployment slots, revisions, rollbacks,
+   observability, private networking, or Kubernetes control.
+5. Team constraints: existing skills, platform standards,
+   approved services, cost limits, and support model.
+
+Return the output as:
+
+- Recommended service
+- Why it fits
+- Alternatives considered
+- Assumptions made
+- Risks or open questions
+- Next deployment-planning steps

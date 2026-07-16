@@ -1,0 +1,11 @@
+## Network exposure decision rules
+
+- If the workload is production and handles sensitive data, ask whether
+  private endpoints, private link, or approved ingress patterns are
+  required before suggesting a public endpoint.
+- If the workload must be public, check whether authentication, TLS,
+  rate limiting, WAF, logging, and monitoring are part of the design.
+- If the workload is internal-only, check whether the proposed design
+  accidentally exposes management endpoints or data-plane endpoints.
+- If network requirements are unknown, ask for the expected callers
+and data classification before suggesting public access.

@@ -1,0 +1,19 @@
+skills:
+  - name: azure-app-service-deployment-review
+    owner: platform-team
+    status: pilot
+    description: Review Azure App Service deployment plans for production readiness.
+    canonical_path: skills/azure-app-service-deployment-review
+    deployment_targets:
+      - .github/skills
+      - microsoft-foundry
+  - name: azure-storage-security-review
+    owner: cloud-security
+    status: draft
+    description: Review Azure Storage security decisions.
+    canonical_path: skills/azure-storage-security-review
+  - name: azure-monitor-investigation
+    owner: sre-team
+    status: draft
+    description: Guide Azure Monitor investigations.
+    canonical_path: skills/azure-monitor-investigation

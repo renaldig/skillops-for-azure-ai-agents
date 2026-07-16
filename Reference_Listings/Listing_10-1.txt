@@ -1,0 +1,11 @@
+# Deployment and infrastructure skills
+/skills/azure-app-service-deployment-review/  @platform-team
+/skills/azure-bicep-preflight-review/         @platform-team
+
+# Security-owned review skills
+/skills/azure-storage-security-review/        @cloud-security
+/skills/azure-rbac-review/                    @cloud-security
+
+# Operations and AI platform skills
+/skills/azure-monitor-investigation/          @sre-team
+/skills/azure-ai-search-retrieval-review/     @ai-platform-team

@@ -1,0 +1,27 @@
+---
+name: azure-production-readiness-review
+description: Review an Azure workload plan for internal production
+  readiness expectations, including ownership, identity,
+  monitoring, deployment safety, and supportability.
+---
+
+Use this skill when the user asks whether an Azure workload is
+ready for production, asks for a deployment review, or shares an
+Azure design that will be released to a production environment.
+
+Review the workload using these checks:
+
+1. Confirm workload ownership and support contacts.
+2. Check for required tags: owner, application, environment,
+   costCenter, dataClassification, and supportTier.
+3. Check whether Azure resource access uses managed identity
+   where supported. Do not approve secrets without an exception.
+4. Check monitoring coverage: logs, metrics, traces, alerts,
+   dashboards, and health endpoints.
+5. Check deployment safety: rollback plan, staged rollout,
+   configuration separation, and validation steps.
+6. Separate required fixes from recommendations.
+
+Do not invent missing tag values, subscription IDs, region
+approvals, or exception approvals. Ask the user for missing
+information or mark the item as needing human review.

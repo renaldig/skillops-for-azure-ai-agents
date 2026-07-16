@@ -1,0 +1,3 @@
+Title: Parental Leave Request Process | Source ID: HR-POLICY-PL-001
+
+This fictional policy is supplied only for the SkillOps lab. Employees should submit a parental leave request to their manager and Human Resources at least eight weeks before the planned start date. The request should include the expected start date, estimated duration, and contact details for follow-up. Eligibility and final approval remain subject to the organization’s current approved policy and human review.

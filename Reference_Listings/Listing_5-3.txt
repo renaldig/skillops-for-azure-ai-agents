@@ -1,0 +1,31 @@
+skills:
+  - name: azure-production-readiness-review
+    owner: cloud-platform
+    maturity: reviewed
+    appliesTo:
+      - production workloads
+      - deployment reviews
+    supportedHosts:
+      - GitHub Copilot in VS Code
+      - Claude Code
+    reviewCycle: quarterly
+    deploymentTargets:
+      - github-copilot-workspace
+      - microsoft-foundry-project
+    requiredTools: []
+    permissionLevel: guidance-only
+
+  - name: azure-managed-identity-review
+    owner: cloud-security
+    maturity: governed
+    appliesTo:
+      - Azure resource access
+      - secret reduction
+    supportedHosts:
+      - GitHub Copilot in VS Code
+    reviewCycle: monthly
+    deploymentTargets:
+      - github-copilot-workspace
+      - microsoft-foundry-project
+    requiredTools: []
+    permissionLevel: guidance-only

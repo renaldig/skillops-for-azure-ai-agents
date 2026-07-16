@@ -1,0 +1,22 @@
+// Failed dependencies in the last hour
+AppDependencies
+| where TimeGenerated > ago(1h)
+| where Success == false
+| summarize Count = count() by Type, Target, Name, ResultCode
+| order by Count desc
+
+// Slow dependencies by target
+AppDependencies
+| where TimeGenerated > ago(1h)
+| summarize
+    AvgDurationMs = avg(DurationMs),
+    P95DurationMs = percentile(DurationMs, 95),
+    Count = count()
+    by Target, Name
+| order by P95DurationMs desc
+
+// Exceptions by type and problem identifier
+AppExceptions
+| where TimeGenerated > ago(1h)
+| summarize Count = count() by Type, ProblemId
+| order by Count desc

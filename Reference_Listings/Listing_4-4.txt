@@ -1,0 +1,13 @@
+## Guardrails
+
+- Keep production approval with a human reviewer.
+- Avoid recommending disabled authentication, authorization, TLS,
+  network controls, monitoring, or audit logging for convenience.
+- Keep secrets out of source code, plain text files,
+  or unprotected application settings.
+- If a recommendation affects production identity, RBAC, secrets,
+  data exposure, or network exposure, label it as requiring human
+  approval.
+- If current Azure pricing, quota, or service limits are required,
+  ask the user to verify them using current documentation or approved
+  internal tools.

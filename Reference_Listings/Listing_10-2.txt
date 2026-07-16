@@ -1,0 +1,24 @@
+Azure App Service Deployment Review
+
+Skill ID: azure-app-service-deployment-review
+Owner: platform-team
+Status: Approved
+Risk level: Medium
+Related services: Azure App Service, Key Vault, Application Insights
+Approved mode: Guidance and review only
+Repository version: 0.4.0
+Foundry skill: azure-app-service-deployment-review / version 4
+Toolbox: deployment-review-toolbox / version 2
+Hosted agent: deployment-review-agent / version 3
+Evaluation record: eval-app-service-2026-07-13
+Rollback target: deployment-review-agent / version 2
+
+Purpose:
+Helps developers review an Azure App Service deployment plan before
+release. The skill focuses on production readiness, identity, secrets,
+monitoring, health checks, deployment slots, rollback, and tagging.
+
+Out of scope:
+- AKS, Functions, or Container Apps deployments
+- assigning Azure RBAC roles
+- diagnosing live production incidents

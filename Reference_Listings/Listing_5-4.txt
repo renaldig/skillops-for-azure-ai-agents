@@ -1,0 +1,38 @@
+---
+name: <skill-name>
+description: <one or two sentences describing when the skill
+  should be used and what outcome it helps produce>
+compatibility: <supported hosts and any required runtime or tool access>
+metadata:
+  owner: <team-or-group>
+  maturity: draft
+---
+
+Use this skill when:
+- <situation 1>
+- <situation 2>
+- <situation 3>
+
+Do not use this skill when:
+- <out-of-scope situation 1>
+- <out-of-scope situation 2>
+
+Workflow:
+1. <first step>
+2. <second step>
+3. <third step>
+
+Required checks:
+- <check 1>
+- <check 2>
+- <check 3>
+
+Ask the user for:
+- <missing information the assistant must not invent>
+
+Output format:
+- <how the assistant should present the result>
+
+Human review required when:
+- <condition that requires escalation>
+- <condition that requires approval>

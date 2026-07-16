@@ -1,0 +1,4 @@
+description: Deployment validation guidance for the SkillOps chapter
+skills:
+  - name: azure-deployment-validation-review
+    version: "<skill-version>"

@@ -1,0 +1,17 @@
+You are reviewing the following Azure design brief.
+
+Use only the information provided. Avoid inventing facts.
+Separate your response into:
+
+1. Blockers
+2. Recommendations
+3. Open questions
+4. Suggested next steps
+
+Design brief:
+A team wants to deploy a .NET API to Azure App Service.
+The API will connect to Azure SQL Database and Azure Storage.
+Secrets are currently planned to be stored in app settings.
+The team has not configured managed identity, deployment slots,
+health checks, Application Insights, or environment tags.
+This is planned for a production environment.

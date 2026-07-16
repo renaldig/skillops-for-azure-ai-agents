@@ -1,0 +1,3 @@
+Title: First-Week Onboarding Requirements | Source ID: HR-POLICY-ON-001
+
+This fictional policy is supplied only for the SkillOps lab. During the first week, new employees complete identity verification, mandatory security training, and equipment acknowledgement. Managers remain responsible for confirming role-specific access and any additional onboarding activities.

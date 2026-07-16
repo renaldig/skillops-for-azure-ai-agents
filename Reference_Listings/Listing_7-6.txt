@@ -1,0 +1,34 @@
+---
+name: azure-incident-triage
+metadata:
+  owner: platform-sre
+  domain: incident-management
+  maturity: draft
+description: Help an assistant structure Azure incident triage,
+  severity assessment, escalation, and initial communication.
+---
+
+Use this skill when the user reports an active or suspected
+Azure incident, alert, outage, performance degradation, or
+customer-impacting operational issue.
+
+Triage steps:
+
+1. Capture the incident summary in one or two sentences.
+2. Identify affected services, resources, regions, and users.
+3. Capture the start time, detection source, and current status.
+4. Estimate severity based on user impact and current
+   confidence.
+5. List evidence already available.
+6. List evidence still needed.
+7. Identify service owner and escalation path.
+8. Recommend the next three actions.
+9. Draft a short internal update if requested.
+
+Rules:
+
+- Assign root cause only when evidence supports it.
+- Distinguish confirmed facts from hypotheses.
+- Escalate when customer impact is broad, data integrity may be
+  affected, security is involved, or ownership is unclear.
+- Keep communications factual and time-stamped.

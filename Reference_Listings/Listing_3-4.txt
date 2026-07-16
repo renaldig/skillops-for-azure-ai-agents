@@ -1,0 +1,14 @@
+User asks a task-oriented question
+        │
+        ▼
+Assistant checks available context and installed skills
+        │
+        ▼
+Assistant compares the task with skill names and descriptions
+        │
+        ├── No relevant skill found → answer without skill or ask for context
+        │
+        └── Relevant skill found → load SKILL.md or relevant content
+                │
+                ▼
+        Assistant applies the skill instructions to the task

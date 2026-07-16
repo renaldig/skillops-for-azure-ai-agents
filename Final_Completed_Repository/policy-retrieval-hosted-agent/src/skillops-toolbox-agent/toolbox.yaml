@@ -1,0 +1,14 @@
+description: HR policy retrieval with governed answer boundaries
+skills:
+  - name: azure-ai-search-retrieval-design
+    version: "<skill-version>"
+tools:
+  - type: azure_ai_search
+    name: policy-search
+    description: Search approved fictional HR policy documents and return evidence for employee policy questions.
+    azure_ai_search:
+      indexes:
+        - project_connection_id: "<project-connection-resource-id>"
+          index_name: "<generated-hr-policy-index-name>"
+          query_type: vector_semantic_hybrid
+          top_k: 5

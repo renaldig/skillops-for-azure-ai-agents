@@ -1,0 +1,16 @@
+---
+name: azure-deployment-review
+description: Use this skill when reviewing an Azure deployment plan,
+  infrastructure-as-code file, or release checklist for production readiness.
+---
+
+# Azure Deployment Review Skill
+
+When reviewing an Azure deployment, check the following areas:
+
+1. Confirm the target Azure service and environment.
+2. Review identity, secrets, and access assumptions.
+3. Check logs, metrics, alerts, and rollback requirements.
+4. Identify quota, cost, networking, and security risks.
+5. Summarize findings as required actions, recommended
+   improvements, and open questions.
