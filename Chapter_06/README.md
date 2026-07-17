@@ -1,6 +1,6 @@
 # Chapter 6 supplementary files
 
-The package reflects the four retained exercises:
+The package reflects the four exercises:
 
 1. Validate a supplied deployment plan.
 2. Run Bicep build, validation, and what-if checks.
