@@ -1,6 +1,6 @@
-# SkillOps for Azure AI Agents — Shortened Edition Supplementary Files
+# SkillOps for Azure AI Agents — Supplementary Files
 
-This package is aligned to the shortened Chapters 1–10 supplied with the manuscript. It contains the starter assets, sample inputs, templates, reference outputs, Azure configuration files, and hosted-agent source files needed for the exercises that remain after the manuscript trim.
+This package is aligned to the Chapters 1–10 supplied with the manuscript. It contains the starter assets, sample inputs, templates, reference outputs, Azure configuration files, and hosted-agent source files needed for the exercises used in the book.
 
 ## How to use the package
 
@@ -23,7 +23,7 @@ This package is aligned to the shortened Chapters 1–10 supplied with the manus
 - Chapter 9: Golden tasks, local/hosted comparison, and Foundry evaluation
 - Chapter 10: Approval workflow, MCP access boundaries, release promotion, and rollback
 
-Chapter 2 has no retained exercise. Its folder contains concise reference diagrams and worksheets only.
+Chapter 2 has no exercise. Its folder contains concise reference diagrams and worksheets only.
 
 ## Chapter 8 hosted-agent source
 
